@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GroceryShopping</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_announcement_page">AnnouncementPage</string>
+    <string name="title_activity_shopping_cart">ShoppingCart</string>
+    <string name="title_activity_qrreader">QRreader</string>
+    <string name="title_activity_buy_history">BuyHistory</string>
+    <string name="title_activity_item_finder">ItemFinder</string>
+    <string name="title_activity_map">mapActivity</string>
+    <string name="title_activity_item_details">ItemDetails</string>
+    <string name="title_activity_scan_result">ScanResult</string>
+</resources>

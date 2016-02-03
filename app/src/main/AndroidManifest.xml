@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.potato.potato.groceryshopping" >
+
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:name=".appGlobal"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnnouncementPage"
+            android:label="@string/title_activity_announcement_page" >
+        </activity>
+        <activity
+            android:name=".ShoppingCart"
+            android:label="@string/title_activity_shopping_cart" >
+        </activity>
+        <activity
+            android:name=".QRreader"
+            android:label="@string/title_activity_qrreader" >
+        </activity>
+        <activity
+            android:name=".BuyHistory"
+            android:label="@string/title_activity_buy_history" >
+        </activity>
+        <activity
+            android:name=".ItemFinder"
+            android:label="@string/title_activity_item_finder" >
+        </activity>
+        <activity
+            android:name=".mapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".ItemDetails"
+            android:label="@string/title_activity_item_details" >
+        </activity>
+        <activity
+            android:name=".ScanResult"
+            android:label="@string/title_activity_scan_result" >
+        </activity>
+    </application>
+
+</manifest>
